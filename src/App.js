@@ -23,7 +23,7 @@ function App() {
     <div>
       <Router>
       <Routes>
-      <Route exact path='/' element={<EntryPoint/>}/>
+      <Route exact path='/Water_Billing_Management_System' element={<EntryPoint/>}/>
 
       <Route path='/Login/Login1' element={<Login1/>}/>
          <Route path='/Login/Login2' element={<Login2/>}/> 
